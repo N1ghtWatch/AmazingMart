@@ -7,6 +7,8 @@ Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AmazingMart", "AmazingMart\
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Report Project", "Report Project1\Report Project.rptproj", "{086A542D-5B92-4FF0-B0AC-DE1A8E15C25D}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AmazingMartCube", "AmazingMartCube\AmazingMartCube.dwproj", "{9C0B07FC-322A-47E4-9F6A-8009C0E30421}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
@@ -33,6 +35,18 @@ Global
 		{086A542D-5B92-4FF0-B0AC-DE1A8E15C25D}.Release|Default.ActiveCfg = Release
 		{086A542D-5B92-4FF0-B0AC-DE1A8E15C25D}.Release|Default.Build.0 = Release
 		{086A542D-5B92-4FF0-B0AC-DE1A8E15C25D}.Release|Default.Deploy.0 = Release
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.Debug|Default.ActiveCfg = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.Debug|Default.Build.0 = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.Debug|Default.Deploy.0 = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.DebugLocal|Default.ActiveCfg = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.DebugLocal|Default.Build.0 = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.DebugLocal|Default.Deploy.0 = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.Development|Default.ActiveCfg = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.Development|Default.Build.0 = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.Development|Default.Deploy.0 = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.Release|Default.ActiveCfg = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.Release|Default.Build.0 = Development
+		{9C0B07FC-322A-47E4-9F6A-8009C0E30421}.Release|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

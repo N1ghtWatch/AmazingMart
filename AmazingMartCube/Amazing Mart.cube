@@ -1,0 +1,265 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ad18954b-226d-4bd3-928d-f293fd2569b5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Amazing Mart</ID>
+  <Name>Amazing Mart</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9995" scrolltop="-6350" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23654" y="12779" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="tblAllSales" left="-2282" top="-5080" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3625" height="10344" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000290e000068280000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblAllSales" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-9995</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6350</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2282</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-5080</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="5af5fe26-5608-451d-ae20-f4a2fb43f8d0">
+      <ID>Tbl All Sales</ID>
+      <Name>Tbl All Sales</Name>
+      <DimensionID>Tbl All Sales</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6a126cbf-bf22-4b76-8181-5b177b2eb5eb">
+          <AttributeID>Product Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="df329507-0fd5-47da-8614-c40eb10bba04">
+      <ID>Tbl All Sales</ID>
+      <Name>Tbl All Sales</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d53d0015-3fdd-4d2e-9cc0-3432710eedf8">
+          <ID>Discount</ID>
+          <Name>Discount</Name>
+          <Source dwd:design-time-name="e7663251-b2fb-4743-ace3-02e010549761">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4ace2b09-f8f4-4e2a-93a9-9a0bde7a2e59">
+              <TableID>dbo_tblAllSales</TableID>
+              <ColumnID>Discount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d87bb9ba-bc60-451c-96c4-194ee56764eb">
+          <ID>Sales</ID>
+          <Name>Sales</Name>
+          <Source dwd:design-time-name="aaf66a20-97fe-4a85-a937-255df69f327c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="be6477ca-45a9-4ecb-81d8-e0a638f7ec32">
+              <TableID>dbo_tblAllSales</TableID>
+              <ColumnID>Sales</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3d655fc2-4e2d-45a6-9225-2cbff804eeaf">
+          <ID>Profit</ID>
+          <Name>Profit</Name>
+          <Source dwd:design-time-name="512f36c2-7f10-4a39-b92e-9da6bd0130bf">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="97fda7b6-deaa-498f-ad5f-f9d26ca8d510">
+              <TableID>dbo_tblAllSales</TableID>
+              <ColumnID>Profit</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="063c5744-3e7d-484d-9c18-7a6f2dcd97b9">
+          <ID>Quantity</ID>
+          <Name>Quantity</Name>
+          <Source dwd:design-time-name="9b386a1d-a244-4cc4-b5e2-9e483f06f572">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="96de3864-d311-4d67-a256-2f3652897fff">
+              <TableID>dbo_tblAllSales</TableID>
+              <ColumnID>Quantity</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="abffd9b1-132c-4ba2-ad94-6c3699c7f8ae">
+          <ID>Tbl All Sales Count</ID>
+          <Name>Tbl All Sales Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="97115c0a-6308-4933-8b99-7b7a8c2e31bf">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="6200b37a-1f00-48da-bab2-8a31ed4ded15">
+              <TableID>dbo_tblAllSales</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f87a6448-ae29-4463-a138-07bf56a7f060">
+          <CubeDimensionID>Tbl All Sales</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d30c03a9-ecf2-40e1-bb84-2419340bfe33">
+              <AttributeID>Product Name</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="878577e8-dfbf-4339-9fd2-3acb60b847ac">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7af4b84e-c1ec-42c3-90b5-9de41f920de5">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>Product_x0020_Name</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f9facb05-7437-4677-bcae-f4d6e3197496">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2eedacf7-1e4a-42e8-bed7-a43c163d1dca">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>Category</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="9d9698f1-ca81-482a-b26e-40aeed6800fe">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c0ea96eb-76cf-4a22-9511-e5d186a5da45">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>Sub-Category</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5d8478fe-f74f-4162-a0fe-26c113485abe">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a03d72ad-2a19-4779-bbe7-8fe992a413be">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>Customer_x0020_Name</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="89d97c33-ccad-42e2-93ea-13bb9ce1c119">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6d97c74b-3cc8-4e92-9e8e-e669ee5e3d9d">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>City</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="1b3d9127-194d-4f7d-8ab2-045b64d0bcad">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9005114-c03a-47a9-b1cc-8c23b4b59cff">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>Country</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="af7d7d9b-d330-49c0-8d9a-56b5fd86c0be">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="57810c92-bff7-4a98-ab7b-2cf342b5b932">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>Region</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="69786aef-29fa-4be4-84a7-c5c32b1ff41c">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="efed860f-a020-4c0f-b166-88763f17fa74">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>Segment</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="4372bb3b-d7ae-46ac-b484-e4f63bdf417a">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="371a1a54-3b99-4c20-88da-d64a768df918">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>Ship_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="a8f5f3ea-4e11-482e-9af4-58037b39ef2e">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4fe15715-5b84-49c5-a369-2d7a3dfcd265">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>Ship_x0020_Mode</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="fe3e4188-72c3-4b38-bd9e-83666d6452c9">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0a508b3e-cb43-4ecf-a750-8b44ce7432b1">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>State</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="44fee979-7077-4d96-b1b5-0ac29b9678d7">
+                  <DataType>WChar</DataType>
+                  <DataSize>265</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ba85c164-ec04-4770-90d6-cb0b8d64351c">
+                    <TableID>dbo_tblAllSales</TableID>
+                    <ColumnID>OrderDateCategory</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="e1868dc3-2fc4-4b65-89b2-0b26f5d85e5f">
+    <DataSourceViewID>Amazing Mart</DataSourceViewID>
+  </Source>
+</Cube>
