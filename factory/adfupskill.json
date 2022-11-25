@@ -1,0 +1,9 @@
+{
+	"name": "adfupskill",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ec91850d-4a2e-4518-97d1-5c67718b7907",
+		"tenantId": "e0793d39-0939-496d-b129-198edd916feb"
+	}
+}
